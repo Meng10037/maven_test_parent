@@ -1,6 +1,11 @@
 .idea/
-target
-maven_test_parent.iml
-maven_module_web.iml
-maven_module_service.iml
-maven_module_dao.iml
+target/
+*.imi
+
+# 忽略规则示例
+# | *.a | : 所有以.a为后缀名的文件都忽略
+# | !lib.a | : 除lib.a这个文件追踪外,所有文件都忽略
+# | /文件名 | : 忽略指定文件
+# | 文件夹名/ | : 忽略指定文件夹下所有文件
+# | doc/*.txt | : 忽略doc文件夹下所有.txt后缀的文件
+# | doc/**/*.pdf | : 忽略doc文件夹下所有.pdf后缀的文件,包含子目录中的.pdf文件
