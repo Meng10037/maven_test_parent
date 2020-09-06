@@ -1,3 +1,6 @@
 .idea/
 target
 maven_test_parent.iml
+maven_module_web.iml
+maven_module_service.iml
+maven_module_dao.iml
